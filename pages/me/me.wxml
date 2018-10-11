@@ -1,0 +1,3 @@
+<view class="button-container" >
+  <button >扫码登录</button>
+</view>

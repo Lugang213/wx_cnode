@@ -1,0 +1,6 @@
+<view class="items">
+  <view class='item' wx:for="{{items}}" wx:key="items">
+    <image src="{{item.author.avatar_url}}"></image>
+    <navigator class='title' url="/pages/articles/articles?id={{item.id}}">{{item.title}}</navigator>
+  </view>
+</view>
